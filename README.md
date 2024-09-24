@@ -38,6 +38,13 @@ Homeassistant screenshot:
 
 ## Hardware
 
+* ESP32 or ESP8266
+* One Resistor 1k Ohm
+* One Resistor 150 Ohm
+* One Transistor BC547
+* Cable for Wiring (Ballpark: 24 or 26 AWG)
+* Perfboard, cut to size.
+
 The hardware consists of an ESP8266 or ESP32 and two IO pins, mounted on a PCI metal plate (see picture below). In my case I used an ESP8266 NodeMCU board. Theoretically any ESP8266 or ESP32 board can be used for this project.
 
 * One pin controls the power button by generating a long or short press
